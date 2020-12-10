@@ -2,6 +2,8 @@
   --color-lightergray: #eeeef7;
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
+  --p-color:#a2c8ce;
+  --contents-left-margin: 15px;
 }
 * {
   font-family: Helvetica, Arial, sans-serif;
@@ -11,8 +13,7 @@
 }
 
 body{
-  /*background-color:var(--color-lightergray);*/
-  background-color: black;
+  background-color:var(--color-lightergray);
 
 }
 /* HEADER / NAV BAR STYLES START */
@@ -89,9 +90,8 @@ header nav li a:hover {
 }
 
 .contents {
-  width: 80%;
+  width: 90%;
   display: flex;
-  background-color: red;
   margin: 50px auto;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -100,19 +100,76 @@ header nav li a:hover {
 .section-title{
   text-align: right;
   font-size: 46px;
-  flex:1 30%;
+  flex:1 20%;
   padding-right: 30px;
   border-right: 3px solid black;
-}
-
-.primary-border{
-
+  color: var(--secondary-color);
 }
 
 .contents-info{
-  flex:1 70%;
+  flex:1 80%;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 var(--contents-left-margin);
+}
+
+.contents-info a{
+  text-decoration: none;
+  border-bottom: 3px solid var(--p-color);
+  color: black;
+  font-weight: 500;
+}
+.work-projects-grid-wrapper {
+  flex:2 80%;
+}
+.work-projects-grid-item p {
+  background-color:var(--p-color);
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.work-projects-grid-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border: 5px solid rgba(162, 200, 206, 0.2);
+  border-radius: 5px;
+  font-size: 35px;
+}
+.work-projects-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  margin-left: var(--contents-left-margin);
+}
+
+.runbuddy {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-image: url("../images/runbuddy.PNG");
+  background-size: 100% 100%;
+}
+.google {
+  background-image: url("../images/google.PNG");
+  background-size: 100% 100%;
+}
+.leetcode {
+  background-image: url("../images/leetcode.PNG");
+  background-size: 100% 100%;
+}
+.youtube {
+  background-image: url("../images/youtube.PNG");
+  background-size: 100% 100%;
+}
+.facebook {
+  background-image: url("../images/facebook.PNG");
+  background-size: 100% 100%;
 }
