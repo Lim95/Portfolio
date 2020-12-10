@@ -1,16 +1,18 @@
-# Run Buddy, Inc
+# My Portfolio
 
 ## Purpose
-A website that offers fitness training services. 
+Displays my work
 
 ## Built With
 * HTML
 * CSS
 
+## Screenshot of the webpage
+
+![Alt text](./assets/images/portfolio-fullscreen-capture.pngraw=true "Webpage")
+
 ## Website
-https://lernantino.github.io/run-buddy/
+https://lim95.github.io/Portfolio/
 
 ## Contribution
-Made with ❤️ by [your name]
-
-### ©️2019 Run Buddy, Inc 
+Made by [Richard Lim]
