@@ -9,7 +9,7 @@ Displays my work
 
 ## Screenshot of the webpage
 
-![Alt text](./assets/images/portfolio-fullscreen-capture.pngraw=true "Webpage")
+![Alt text](./assets/images/portfolio-fullscreen-capture.png raw=true "Webpage")
 
 ## Website
 https://lim95.github.io/Portfolio/
