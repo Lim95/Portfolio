@@ -18,7 +18,6 @@
 
 body{
   background-color:var(--color-lightergray);
-
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -83,11 +82,13 @@ header nav li a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .hero img{
   border: 2px solid black;
   border-radius:50%;
   margin: 15px 40px;
 }
+
 .hero h2{
   color: white;
   font-size: 5vw;
@@ -100,7 +101,6 @@ header nav li a:hover {
   display: flex;
   margin: 50px auto 100px;
   justify-content: space-between;
-
 }
 
 .section-title{
@@ -147,7 +147,6 @@ header nav li a:hover {
   grid-auto-flow: dense;
   flex:1 var(--content-content-width);
   padding: 0 var(--contents-left-margin);  
-
 }
 
 .works-grid-item img{
@@ -165,32 +164,38 @@ header nav li a:hover {
   grid-column: 1/ span 2;
   grid-row: 1 / span 2;
 }
+
 .google {
   grid-column: 3;
   grid-row: 1;
 }
+
 .leetcode {
   grid-column: 3;
   grid-row: 2;
 }
+
 .youtube {
   grid-column: 1;
   grid-row: 3;
 }
+
 .facebook {
   grid-column: 3;
   grid-row: 3;
 }
+
 .works-grid-item img:hover{
   opacity: 1;
 }
+
 .works-grid-item-text {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   font-size: 35px;  
-
 }
+
 .works-grid-item-text p{
   background-color:var(--tertiary-color);
   font-size: 1vw;
@@ -198,8 +203,8 @@ header nav li a:hover {
   margin-bottom: 50px;
   z-index: 1;
   margin-left: 10px;
-
 }
+
 span {
   font-size: 2vw;
   font-weight: bold;
@@ -224,19 +229,22 @@ span {
     margin-bottom: 15px;
     font-size: 13px;
   }
+
   .contents-info{
     margin:0;
   }
+
   .works-grid-item-text p{
     padding: 5px;
   }
+
   .section-title {
     font-size: 35px;
   }
+
   .contents-info a{
     font-size: 17px;
   }
-
 }
 
 /*Width at 480px and below*/
@@ -248,17 +256,18 @@ span {
     padding: 10px 0;
     margin: 10px 0;
     flex:1 100%;
-
   }
+
   .contents{
     flex-flow: column;
     flex-wrap: wrap;
-
   }
+
   .contents-info{
     flex-flow: column;
     justify-content: center;
   }
+
   .works-grid-item-text {
     font-size: 15px;
     margin: 0;
@@ -266,16 +275,20 @@ span {
     justify-content: flex-start;
     transform: translateY(-100px);
   }
+
   .works-grid-item-text p{
     background-color:var(--color-lightergray);  
   }
+
   .works-grid-item-text span{
     display: block;
     font-size: 17px;
   }
+
   br { 
     display:none; 
   }
+
   .works-container{
     display:flex;
     flex-flow: column;
@@ -284,16 +297,17 @@ span {
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
+
   .works-grid-item {
     margin: 0;
   }
+
   .runbuddy {
     margin-top: 20px;
   }
-  .works {
 
+  .works {
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 }
